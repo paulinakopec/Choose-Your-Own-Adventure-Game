@@ -1,7 +1,7 @@
 name = input("Type in your name: ")
 print(f"Welcome {name} to this adventure! \nYour aim is to find the gold. Let's get started.")
 
-answer_1 = input("You are on a dirt road, it has come to an end and you can go left or right. Which way would you like to go? ").lower()
+answer_1 = input("You are on a dirt road, it has come to an end and you can go left or right. Which way would you like to go? (Choose left/right) ").lower()
 
 if answer_1 == "left":
     
